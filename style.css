@@ -1,0 +1,44 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-container {
+    text-align: center;
+}
+
+.sub-container {
+    width: 80%;
+    height: 200px;
+    border: 3px solid;
+    background-color: dimgray;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+button {
+    background-color: aquamarine;
+    width: 30%;
+    display: flex;
+    border: 1px solid;
+    height: 100%;
+    margin: 0px 10px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+button:hover {
+    background-color: azure;
+}
+
+#music {
+    background-color: aqua;
+}
+#movies {
+    background-color: burlywood;
+}
+#sports {
+    background-color: darkseagreen;
+}
